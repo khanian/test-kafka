@@ -42,3 +42,5 @@ https://zookeeper.apache.org/releases.html
 > .\bin\windows\kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
 
 >.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
+
+![image]()
