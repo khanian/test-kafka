@@ -9,7 +9,11 @@
 
 3. cfg 파일 설정 변경
 > cd ./apache-zookeeper-3.7.1-bin/conf
+
 > cp ./zoo_sample.cfg zoo.cfg
+
 > cd ..
+
 > bin/zkServer.sh start
-> .\bin\zkServer.cmd     <------ window // JAVA_HOME 세팅 되어 있어야 함.
+(window::JAVA_HOME 세팅 되어 있어야 함.)
+> .\bin\zkServer.cmd     
