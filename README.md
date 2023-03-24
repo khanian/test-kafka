@@ -1,6 +1,7 @@
 # test-kafka
 
 1. Apache ZooKeeper 3.7.1 (latest stable release) //2023-03-24
+https://zookeeper.apache.org/releases.html 
 
 ![image](https://user-images.githubusercontent.com/13308117/227393350-d8051cab-3fab-48ca-aaa4-49bc1118139d.png)
 
@@ -18,3 +19,5 @@
 
 (window::JAVA_HOME 세팅 되어 있어야 함.)
 > .\bin\zkServer.cmd     
+
+2. apache kafka https://kafka.apache.org/downloads 
