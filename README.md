@@ -12,3 +12,4 @@
 > cp ./zoo_sample.cfg zoo.cfg
 > cd ..
 > bin/zkServer.sh start
+> .\bin\zkServer.cmd     <------ window // JAVA_HOME 세팅 되어 있어야 함.
