@@ -20,4 +20,25 @@ https://zookeeper.apache.org/releases.html
 (window::JAVA_HOME 세팅 되어 있어야 함.)
 > .\bin\zkServer.cmd     
 
-2. apache kafka https://kafka.apache.org/downloads 
+4. apache kafka https://kafka.apache.org/downloads 
+
+> tar -xvf kafka_2.13-2.8.2
+
+> cd kafka_2.12-2.8.2
+
+> bin/kafka-server-start.sh config/server.properties
+
+> bin/kafka-topics.sh --create --topic quickstart-events --bootstrap-server localhost:9092
+
+| Created topic quickstart-events.
+
+> bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+| quickstart-events
+
+(winodw)
+> bin\windows\kafka-server-start.bat \config\server.properties
+
+> .\bin\windows\kafka-topics.bat --create --topic quickstart-events --bootstrap-server localhost:9092
+
+>.\bin\windows\kafka-topics.bat --list --zookeeper localhost:2181
