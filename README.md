@@ -15,5 +15,6 @@
 > cd ..
 
 > bin/zkServer.sh start
+
 (window::JAVA_HOME 세팅 되어 있어야 함.)
 > .\bin\zkServer.cmd     
